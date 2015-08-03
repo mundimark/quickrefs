@@ -43,6 +43,29 @@ Heading 2
 
 ## Paragraph `<p> ...</p>`
 
+```
+Paragraph
+
+Another Paragraph
+```
+
+```html
+<p>Paragraph</p>
+
+<p>Another Paragraph</p>
+```
+
+»» Live »»»»»»»»»»»»»»»»»»»»»»»»»»
+
+Paragraph
+
+Another Paragraph
+
+««««««««««««««««««««««««««««««««««
+
+
+
+
 ## Ordererd List `<ol>, <li>...</li>+ </ol>`
 
 ## Unordered List `<ul>, <li>...</li>+ </ul>`
