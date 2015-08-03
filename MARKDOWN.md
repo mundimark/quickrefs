@@ -19,8 +19,10 @@ _markup hypertext in easy-to-read and easy-to-write plain text_
 <table>
 <tr>
 <td>
-  &lt;h1&gt;Heading 1&lt;/h1&gt;
-  &lt;h2&gt;Heading 2&lt;/h2&gt;
+<pre>
+&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+</pre>
 </td>
 <td>
 »» Live »»»»»»»»»»»»»»»»»»»»»»»»»»
@@ -56,6 +58,26 @@ Paragraph
 
 Another Paragraph
 ```
+
+<table>
+<tr>
+<td>
+<pre>
+&lt;p&gt;Paragraph&lt;/p&gt;
+&lt;p&gt;Another Paragraph&lt;/p&gt;
+</pre>
+</td>
+<td>
+»» Live »»»»»»»»»»»»»»»»»»»»»»»»»»
+
+<p>Paragraph</p>
+<p>Another Paragraph</p>
+
+««««««««««««««««««««««««««««««««««
+</td>
+</tr>
+</table>
+
 
 ```html
 <p>Paragraph</p>
