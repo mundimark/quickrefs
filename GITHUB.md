@@ -16,14 +16,17 @@ Examples:
 
 ## HTML (Stripped/Sanitized)
 
-try a table w/ "embedded" markdown:
+try a table w/ "embedded" markdown e.g. markdown="1":
 
 <table>
 <tr><td>
+<div markdown="1">
  col1
  **bold**
+</div>
 </td>
 <td>
+<div markdown="1">
 col2
 
 ## heading 2
@@ -31,6 +34,7 @@ col2
 
 (markdown) table inside table?
 
+</div>
 </td>
 </tr></table>
 
