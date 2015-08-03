@@ -8,28 +8,28 @@ _markup hypertext in easy-to-read and easy-to-write plain text_
 
 ## Headings 1-6  `<h1>...</h1>`-`<h6>...</h6>`
 
-|--  <!-- begin table/row -->
 
-```
+```markdwon
 # Heading 1
 ## Heading 2
 ```
--|-  <!-- new column -->
 
-```
+```html
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 ```
 
+»» Live »»»»»»»»»»»»»»»»»»»»»»»»»»
+
 # Heading 1
 ## Heading 2
 
---|  <!-- end table/row -->
+««««««««««««««««««««««««««««««««««
 
 
 ### Alternative Literal Style
 
-```
+```markdown
 Heading 1
 =========
 
@@ -76,6 +76,14 @@ Heading 2
 
 
 ## Tables `<table><tr><th>... tbd.<td></table>`
+
+
+
+use to structure doc??
+
+|--  <!-- begin table/row -->
+-|-  <!-- new column -->
+--|  <!-- end table/row -->
 
 
 
