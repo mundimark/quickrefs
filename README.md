@@ -1,2 +1,3 @@
-# quickrefs
-Markdown 'n' Friends Quick References (Cheat Sheets)
+
+# Markdown 'n' Friends Quick References (Cheat Sheets)
+
