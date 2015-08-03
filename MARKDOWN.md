@@ -9,22 +9,30 @@ _markup hypertext in easy-to-read and easy-to-write plain text_
 ## Headings 1-6  `<h1>...</h1>`-`<h6>...</h6>`
 
 
-```markdwon
+```
 # Heading 1
 ## Heading 2
 ```
 
-```html
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-```
+<!-- generate example html code and htmt preview via script/ruby ?? -->
 
+<table>
+<tr>
+<td>
+  &lt;h1&gt;Heading 1&lt;/h1&gt;
+  &lt;h2&gt;Heading 2&lt;/h2&gt;
+</td>
+<td>
 »» Live »»»»»»»»»»»»»»»»»»»»»»»»»»
 
-# Heading 1
-## Heading 2
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
 
 ««««««««««««««««««««««««««««««««««
+</td>
+</tr>
+</table>
+
 
 
 ### Alternative Literal Style
