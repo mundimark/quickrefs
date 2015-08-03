@@ -9,15 +9,16 @@ _markup hypertext in easy-to-read and easy-to-write plain text_
 ## Headings 1-6  `<h1>...</h1>`-`<h6>...</h6>`
 
 
-```
-# Heading 1
-## Heading 2
-```
-
 <!-- generate example html code and htmt preview via script/ruby ?? -->
 
 <table>
 <tr>
+<td>
+<pre>
+# Heading 1
+## Heading 2
+</pre>
+</td>
 <td>
 <pre>
 &lt;h1&gt;Heading 1&lt;/h1&gt;
@@ -53,14 +54,15 @@ Heading 2
 
 ## Paragraph `<p> ...</p>`
 
-```
+<table>
+<tr>
+<td>
+<pre>
 Paragraph
 
 Another Paragraph
-```
-
-<table>
-<tr>
+</pre>
+</td>
 <td>
 <pre>
 &lt;p&gt;Paragraph&lt;/p&gt;
