@@ -13,3 +13,18 @@ try some github flavored markdown
 Examples:
 
 :+1: (+1) :book: (book) :octocat: (octocat) :gem: (gem) etc.
+
+## HTML (Stripped/Sanitized)
+
+try a table:
+
+<table>
+<tr><td>
+ col1
+</td>
+<td>
+col2
+</td>
+</tr></table>
+
+some more text
