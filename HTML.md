@@ -386,38 +386,43 @@ Note: Use the backslash (`\`) to escape special markdown characters:
 Note: HTML entities in code and code blocks get auto-escaped:
 
 ```
-<     =>  &lt;
->     =>  &gt;
-&     =>  &amp;
+<    =>  &lt;
+>    =>  &gt;      e.g. <html> => &lt;html&gt;
+&    =>  &amp;
 ```
+
 
 ### Pretty Printing
 
 #### Quotes & Dashes
 
-```
-"Hello, World"    =>
-'Hello, World'    =>
---                =>
----               =>
-```
-
-
-#### Copyright & Trademarks
-
-```
-(c)  or (C)   => ©
-(r)  or (R)   => ®
+Text              |
+----------------- | ------------
+`"Hello, World"`  |  "Hello, World"
+`'Hello, World'`  |  'Hello, World'
+`--`              |  --
+`---`             |  ---
 ...
-```
 
 
-### Emojis
 
-`:smile:` :smile: •
-`:tata:`  :tata:  •
-`:book:`  :book:  •
-`:gem:`   :gem:   •
-`:+1:`    :+1:   
+#### Copyright & Registered Trademark
+
+Text           |
+-------------- | ----------
+`(c)` or `(C)` |  (c)
+`(r)` or `(R)` |  (r)
+...            |
+
+
+### Emoji (Shortcodes)
+
+Text       | Emoji
+---------- | -----
+`:smile:`  | :smile:
+`:tata:`   | :tata: 
+`:book:`   | :book: 
+`:gem:`    | :gem:  
+`:+1:`     | :+1:   
 
 and many more
