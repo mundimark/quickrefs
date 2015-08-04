@@ -139,6 +139,14 @@ or
 ```
 
 
+## `<img src="..." alt="...">` - Image (with Alternative Text)
+
+```
+![Text](http://example.com/logo.png)
+![Text](logo.png)                       -- use relative path
+![](logo.png)                           -- alternative text optional e.g. leave empty
+```
+
 ## `<hr>` - Horizontal Rule
 
 ```
@@ -161,15 +169,6 @@ or
 
 ```
 * * *
-```
-
-
-## `<img src="..." alt="...">` - Image (with Alternative Text)
-
-```
-![Text](http://example.com/logo.png)
-![Text](logo.png)                       -- use relative path
-![](logo.png)                           -- alternative text optional e.g. leave empty
 ```
 
 ## `<!-- ... -->` - Comments  
