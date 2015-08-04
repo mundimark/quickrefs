@@ -368,15 +368,15 @@ Note: Use the backslash (`\`) to escape special markdown characters:
 ```
 \\        =>  \ ackslash
 \`        =>  ` backtick
-          =>  * asterisk
-          =>  _ underscore
+\*        =>  * asterisk          e.g. \*literal asterisks\*     -- no bold text
+\_        =>  _ underscore
 \{ or \}  =>  {} curly braces
 \[ or \]  =>  [] square brackets
 \( or \)  =>  [] parentheses
-\#        =>  # hash mark
+\#        =>  # hash mark 
 \+        =>  + plus sign
 \-        =>  - minus sign (hyphen / dash)
-\.        =>  . dot
+\.        =>  . dot               e.g. 2020\. What a great year.  -- no numbered list item
 \!        =>  ! exclamation mark
 ```
 
