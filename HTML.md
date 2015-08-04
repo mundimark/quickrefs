@@ -22,7 +22,7 @@ HTML                            | Notes
 ###### Heading 6
 ```
 
--or-
+  or
 
 ```
 Heading 1
@@ -49,7 +49,7 @@ And another paragraph.
 - Item 3
 ```
 
--or-
+ or
 
 ```
 * Item 1
@@ -57,7 +57,7 @@ And another paragraph.
 * item 3
 ```
 
--or-
+or
 
 ```
 + Item 1
@@ -71,19 +71,19 @@ And another paragraph.
 ---       
 ```
 
--or-   
+ or   
 
 ```
 - - -
 ```
 
--or-
+ or
 
 ```
 ***
 ```
 
--or-
+or
 
 ```
 * * *
