@@ -112,7 +112,8 @@ _Unordered • Ordered (Numbered)_
 ```
 - Item 1
 - Item 2
-- Item 3
+  - Item 2a
+  - Item 2b
 ```
 
  or
@@ -120,7 +121,8 @@ _Unordered • Ordered (Numbered)_
 ```
 * Item 1
 * Item 2
-* item 3
+  * Item 2a
+  * Item 2b
 ```
 
 or
@@ -128,7 +130,8 @@ or
 ```
 + Item 1
 + Item 2
-+ Item 3
+  + Item 2a
+  + Item 2b
 ```
 
 ### `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
@@ -136,7 +139,8 @@ or
 ```
 1. A list item
 2. Another list item
-3. Yet another list item
+   * A sublist item
+   * Another sublist item
 ```
 
 
@@ -291,20 +295,21 @@ or
 
 
 ```
-> This is a blockquote. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+As Grace Hopper said:
+
+> I've always been more interested
+> in the future than in the past.
 ```
 
 or
 
 
 ```
-> This is a blockquote. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-```
+As Grace Hopper said:
 
+> I've always been more interested
+> in the future than in the past.
+```
 
 
 ## `<hr>` - Horizontal Rule
