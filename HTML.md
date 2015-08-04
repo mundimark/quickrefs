@@ -5,6 +5,7 @@ HTML                            | Notes
 ------------------------------- | --------------------- 
 `<h1>...</h1>` - `<h6>...</h6>` | Heading 1-6
 `<p>...</p>`                    | Paragraph
+`<br>`                          | Hard Line Break 
 `<i>...</i>`                    | Italic Text (Emphasis)
 `<b>...</b>`                    | Bold Text (Strong Emphasis)
 `<del>...</del>`                | Deleted Text
@@ -12,7 +13,6 @@ HTML                            | Notes
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<hr>`                          | Horizontal Rule
-`<br>`                          | Hard Line Break 
 `<img src="..." alt="...">`     | Image (with Alternative Text)
 `<!-- ... -->`                  | Comments  
 
@@ -49,7 +49,19 @@ by a blank line.
 This is another paragraph.
 ```
 
-## `<i>...</i>` - Italic Text (Emphasis)
+## `<br>` -  Hard Line Break 
+
+```
+Leave two spaces at the end of a line to do a line break.••↵
+This is a new line.••↵
+This is another new line.
+```
+
+## Text Formatting
+
+Italic • Bold • Code (Monospaced) • Deleted (Strike-Through)
+
+### `<i>...</i>` - Italic Text (Emphasis)
 
 ```
 This text is *italic*.
@@ -61,7 +73,7 @@ or
 This text is _italic_ too.
 ```
 
-## `<b>...</b>` - Bold Text (Strong Emphasis)
+### `<b>...</b>` - Bold Text (Strong Emphasis)
 
 ```
 This text is **bold**. 
@@ -73,20 +85,24 @@ or
 This text is __bold__ too.
 ```
 
-## `<del>...</del>` - Deleted Text 
+### `<del>...</del>` - Deleted (Strike-through) Text 
 
 ```
 This text is ~~deleted~~.
 ```
 
-## `<code>...</code>` -  Code (Monospace Text)
+### `<code>...</code>` -  Code (Monospace Text)
 
 ```
 This text is `monospaced`.
 ```
 
 
-## `<ul>(<li>...</li>)+</ul>` - Unordered List
+## Lists
+
+Unordered • Ordered (Numbered)
+
+### `<ul>(<li>...</li>)+</ul>` - Unordered List
 
 ```
 - Item 1
@@ -110,7 +126,7 @@ or
 + Item 3
 ```
 
-## `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
+### `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
 
 ```
 1. A list item
@@ -141,14 +157,6 @@ or
 
 ```
 * * *
-```
-
-## `<br>` -  Hard Line Break 
-
-```
-Leave two spaces at the end of a line to do a line break.••↵
-This is a new line.••↵
-This is another new line.
 ```
 
 
