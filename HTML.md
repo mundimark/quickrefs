@@ -56,8 +56,8 @@ This is another paragraph.
 ## `<br>` -  Hard Line Break 
 
 ```
-Leave two spaces at the end of a line to do a line break.••↵
-This is a new line.••↵
+Leave two spaces at the end of a line to do a line break.··↵
+This is a new line.··↵
 This is another new line.
 ```
 
@@ -112,8 +112,8 @@ _Unordered • Ordered (Numbered)_
 ```
 - Item 1
 - Item 2
-  - Item 2a
-  - Item 2b
+··- Item 2a        -- indent nested list with two spaces or more
+··- Item 2b
 ```
 
  or
@@ -121,8 +121,8 @@ _Unordered • Ordered (Numbered)_
 ```
 * Item 1
 * Item 2
-  * Item 2a
-  * Item 2b
+··* Item 2a
+··* Item 2b
 ```
 
 or
@@ -130,8 +130,8 @@ or
 ```
 + Item 1
 + Item 2
-  + Item 2a
-  + Item 2b
+··+ Item 2a
+··+ Item 2b
 ```
 
 ### `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
@@ -139,8 +139,8 @@ or
 ```
 1. A list item
 2. Another list item
-   * A sublist item
-   * Another sublist item
+···- A sublist item
+···- Another sublist item
 ```
 
 
@@ -269,11 +269,11 @@ Text A2  | Text B2  | Text C2
 ```
 This is comma-separated values (CSV) example:
 
-••••Date,Team1,Team2,FT,HT                      -- indent with four spaces
-••••2013-08-17,Arsenal,Aston Villa,1-3,1-1
-••••2013-08-17,Liverpool,Stoke,1-0,1-0
-••••2013-08-17,Swansea,Man United,1-4,0-2
-••••2013-08-18,Chelsea,Hull,2-0,2-0
+····Date,Team1,Team2,FT,HT                      -- indent with four spaces
+····2013-08-17,Arsenal,Aston Villa,1-3,1-1
+····2013-08-17,Liverpool,Stoke,1-0,1-0
+····2013-08-17,Swansea,Man United,1-4,0-2
+····2013-08-18,Chelsea,Hull,2-0,2-0
 ```
 
 or
@@ -281,7 +281,7 @@ or
 
     This is comma-separated values (CSV) example:
     
-    ```
+    ```                                     -- wrap with three backticks (`)
     Date,Team1,Team2,FT,HT
     2013-08-17,Arsenal,Aston Villa,1-3,1-1
     2013-08-17,Liverpool,Stoke,1-0,1-0
@@ -308,7 +308,7 @@ or
 As Grace Hopper said:
 
 > I've always been more interested
-> in the future than in the past.
+in the future than in the past.           -- shortcut version (> only required for first line)
 ```
 
 
@@ -357,4 +357,37 @@ or
   -->
 ```
 
+## Appendix
+
+### Escapes
+
+#### Markdown Escapes
+
+Note: Use the backslash (`\`) to escape special markdown characters:
+
+```
+\\   => \ ackslash
+\`   => ` backtick
+     => * asterisk
+     => _ underscore
+\{ or \} => {} curly braces
+\[ or \] => [] square brackets
+\( or \) => [] parentheses
+\#       => # hash mark
+\+       => + plus sign
+\-       => - minus sign (hyphen / dash)
+\.       => . dot
+\!       => ! exclamation mark
+```
+
+
+#### HTML Entities in Code & Code Blocks 
+
+Note: HTML entities in code and code blocks get auto-escaped:
+
+```
+<     =>  &lt;
+>     =>  &gt;
+&     =>  &amp;
+```
 
