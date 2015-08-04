@@ -366,18 +366,18 @@ or
 Note: Use the backslash (`\`) to escape special markdown characters:
 
 ```
-\\       => \ ackslash
-\`       => ` backtick
-         => * asterisk
-         => _ underscore
-\{ or \} => {} curly braces
-\[ or \] => [] square brackets
-\( or \) => [] parentheses
-\#       => # hash mark
-\+       => + plus sign
-\-       => - minus sign (hyphen / dash)
-\.       => . dot
-\!       => ! exclamation mark
+\\        =>  \ ackslash
+\`        =>  ` backtick
+          =>  * asterisk
+          =>  _ underscore
+\{ or \}  =>  {} curly braces
+\[ or \]  =>  [] square brackets
+\( or \)  =>  [] parentheses
+\#        =>  # hash mark
+\+        =>  + plus sign
+\-        =>  - minus sign (hyphen / dash)
+\.        =>  . dot
+\!        =>  ! exclamation mark
 ```
 
 
@@ -396,7 +396,7 @@ Note: HTML entities in code and code blocks get auto-escaped:
 
 #### Quotes & Dashes
 
-Text              |
+Text              | Pretty
 ----------------- | ------------
 `"Hello, World"`  |  "Hello, World"
 `'Hello, World'`  |  'Hello, World'
@@ -408,7 +408,7 @@ Text              |
 
 #### Copyright & Registered Trademark
 
-Text           |
+Text           | Pretty
 -------------- | ----------
 `(c)` or `(C)` |  (c)
 `(r)` or `(R)` |  (r)
@@ -417,12 +417,16 @@ Text           |
 
 ### Emoji (Shortcodes)
 
-Text       | Emoji
----------- | -----
-`:smile:`  | :smile:
-`:tata:`   | :tata: 
-`:book:`   | :book: 
-`:gem:`    | :gem:  
-`:+1:`     | :+1:   
+Text             | Emoji
+---------------- | -----
+`:smile:`        | :smile:
+`:wink:`         | :wink:
+`:grin:`         | :grin:
+`:sunglasses:`   | :sunglasses:
+`:rage:`         | :rage:
+`:tada:`         | :tada: 
+`:book:`         | :book: 
+`:gem:`          | :gem:  
+`:+1:`           | :+1:   
 
 and many more
