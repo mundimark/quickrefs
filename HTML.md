@@ -396,22 +396,22 @@ Note: HTML entities in code and code blocks get auto-escaped:
 
 #### Quotes & Dashes
 
-Text              | Pretty
------------------ | ------------
-`"Hello, World"`  |  "Hello, World"
-`'Hello, World'`  |  'Hello, World'
-`--`              |  --
-`---`             |  ---
+Text              | Pretty            | Notes
+----------------- | ----------------- | -------------------------------------
+`"Hello, World"`  |  “Hello, World”   | uses “ (`&ldquo;`) and ” (`&rdquo;`)
+`'Hello, World'`  |  ‘Hello, World'   | uses ‘ (`&lquo;`) and ’ (`&rquo;`) 
+`--`              |  –                | uses –  (`&ndash;`)
+`---`             |  —                | uses — (`&mdash;`)
 ...
 
 
 
 #### Copyright & Registered Trademark
 
-Text           | Pretty
--------------- | ----------
-`(c)` or `(C)` |  (c)
-`(r)` or `(R)` |  (r)
+Text           | Pretty     | Notes
+-------------- | ---------- | -------------------
+`(c)` or `(C)` |  ©         | uses © (`&copy;`)
+`(r)` or `(R)` |  ®         | uses ® (`&reg;`)
 ...            |
 
 
