@@ -3,11 +3,11 @@
 
 HTML                            | Notes
 ------------------------------- | ---------------------
-`<h1>...</h1>` - `<h6>...</h6>` | Heading 1-6
-`<p>...</p>`                    | Paragraph
-`<br>`                          | Hard Line Break 
-`<i>...</i>`                    | Italic Text (Emphasis)
-`<b>...</b>`                    | Bold Text (Strong Emphasis)
+`<h1>...</h1>` - `<h6>...</h6>`             | Heading 1-6
+`<p>...</p>`                                | Paragraph
+`<br>`                                      | Hard Line Break 
+`<i>...</i>` or `<emphasis>...</emphasis>`  | Italic Text (Emphasis)
+`<b>...</b>` or `<strong>...</strong>`      | Bold Text (Strong Emphasis)
 `<code>...</code>`              | Code (Monospace Text)
 `<del>...</del>`                | Deleted (Strikethrough) Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
@@ -63,9 +63,9 @@ This is another new line.
 
 ## Text Formatting
 
-_Italic • Bold • Code (Monospaced) • Deleted (Strikethrough)_
+_Italic (Emphasis) • Bold (Strong Emphasis) • Code (Monospaced) • Deleted (Strikethrough)_
 
-### `<i>...</i>` - Italic Text (Emphasis)
+### `<i>...</i>` or `<emphasis>...</emphasis>` - Italic Text (Emphasis)
 
 ```
 This text is *italic*.
@@ -77,7 +77,7 @@ or
 This text is _italic_ too.
 ```
 
-### `<b>...</b>` - Bold Text (Strong Emphasis)
+### `<b>...</b>` or `<strong>...</strong>` - Bold Text (Strong Emphasis)
 
 ```
 This text is **bold**. 
@@ -432,3 +432,21 @@ Text             | Emoji
 `:+1:`           | :+1:   
 
 and many more
+
+
+## Meta
+
+**Thanks**
+
+Michel Fortin • Waylan Limberg  
+
+**License**
+
+The quick reference is dedicated to the public domain. Use it as you please with no restrictions whatsoever.
+
+**Questions? Comments?**
+
+Send them along to the markdown-discuss mailing list. Thanks!
+
+
+
