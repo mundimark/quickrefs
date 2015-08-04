@@ -34,9 +34,9 @@ Heading 2
 ## `<p>...</p>` - Paragraph
 
 ```
-Paragraph
+A paragraph.
 
-Another Paragraph
+And another paragraph.
 ```
 
 ## `<ul>(<li>...</li>)+</ul>` - Unordered List
@@ -66,18 +66,22 @@ Another Paragraph
 
 -or-   
 
-* * *
+- - -
 
 -or-
 
-- - -
+***
+
+-or-
+
+* * *
 ```
 
 ## `<img src="..." alt="...">` - Image (with Alternative Text)
 
 ```
-![text](http://example.com/logo.png)
-![text](logo.png)                       -- use relative path
+![Text](http://example.com/logo.png)
+![Text](logo.png)                       -- use relative path
 ![](logo.png)                           -- alternative text optional e.g. leave empty
 ```
 
