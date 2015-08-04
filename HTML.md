@@ -1,15 +1,15 @@
-# HTML <=>  Markdown Reference
+# HTML <=>  Markdown Quick Reference
 
 
-HTML                            | Notes                
-------------------------------- | --------------------- 
+HTML                            | Notes
+------------------------------- | ---------------------
 `<h1>...</h1>` - `<h6>...</h6>` | Heading 1-6
 `<p>...</p>`                    | Paragraph
 `<br>`                          | Hard Line Break 
 `<i>...</i>`                    | Italic Text (Emphasis)
 `<b>...</b>`                    | Bold Text (Strong Emphasis)
 `<code>...</code>`              | Code (Monospace Text)
-`<del>...</del>`                | Deleted (Strike-through) Text
+`<del>...</del>`                | Deleted (Strikethrough) Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<a href="...">...</a>`         | Link
@@ -63,7 +63,7 @@ This is another new line.
 
 ## Text Formatting
 
-_Italic • Bold • Code (Monospaced) • Deleted (Strike-Through)_
+_Italic • Bold • Code (Monospaced) • Deleted (Strikethrough)_
 
 ### `<i>...</i>` - Italic Text (Emphasis)
 
@@ -95,11 +95,12 @@ This text is __bold__ too.
 This text is `monospaced`.
 ```
 
-### `<del>...</del>` - Deleted (Strike-through) Text 
+### `<del>...</del>` - Deleted (Strikethrough) Text
 
 ```
 This text is ~~deleted~~.
 ```
+
 
 
 ## Lists
@@ -264,7 +265,7 @@ Text A2  | Text B2  | Text C2
 ```
 This is comma-separated values (CSV) example:
 
-••••Date,Team1,Team2,FT,HT
+••••Date,Team1,Team2,FT,HT                      -- indent with four spaces
 ••••2013-08-17,Arsenal,Aston Villa,1-3,1-1
 ••••2013-08-17,Liverpool,Stoke,1-0,1-0
 ••••2013-08-17,Swansea,Man United,1-4,0-2
@@ -274,24 +275,23 @@ This is comma-separated values (CSV) example:
 or
 
 
-``````
-This is comma-separated values (CSV) example:
+    This is comma-separated values (CSV) example:
+    
+    ```
+    Date,Team1,Team2,FT,HT
+    2013-08-17,Arsenal,Aston Villa,1-3,1-1
+    2013-08-17,Liverpool,Stoke,1-0,1-0
+    2013-08-17,Swansea,Man United,1-4,0-2
+    2013-08-18,Chelsea,Hull,2-0,2-0
+    ```
 
-```
-Date,Team1,Team2,FT,HT
-2013-08-17,Arsenal,Aston Villa,1-3,1-1
-2013-08-17,Liverpool,Stoke,1-0,1-0
-2013-08-17,Swansea,Man United,1-4,0-2
-2013-08-18,Chelsea,Hull,2-0,2-0
-```
-``````
 
 
 ## `<blockquote>...<blockquote>`  -  Blockquote
 
 
 ```
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> This is a blockquote. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 ```
@@ -300,7 +300,7 @@ or
 
 
 ```
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> This is a blockquote. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 ```
@@ -353,4 +353,3 @@ or
 ```
 
 
-add more html referecenes 
