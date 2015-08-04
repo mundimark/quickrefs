@@ -12,6 +12,8 @@ HTML                            | Notes
 `<del>...</del>`                | Deleted (Strike-through) Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
+`<blockquote>...<blockquote>`   | Blockquote
+`<pre><code>...</code></pre>`   | Preformatted Code Block
 `<hr>`                          | Horizontal Rule
 `<img src="..." alt="...">`     | Image (with Alternative Text)
 `<!-- ... -->`                  | Comments  
