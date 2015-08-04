@@ -1,10 +1,13 @@
 # HTML <=>  Markdown Reference
 
-- `<h1>...</h1>` - `<h6>...</h6>` - Heading 1-6
-- `<p>...</p>` - Paragraph
-- `<ul><li>...</li>+</ul>` - Unordered List
-- `<hr>` - Horizontal Rule
-- `<img src="..." alt="...">` - Image (with Alternative Text)
+
+HTML                            | Notes                
+------------------------------- | --------------------- 
+`<h1>...</h1>` - `<h6>...</h6>` | Heading 1-6
+`<p>...</p>`                    | Paragraph
+`<ul><li>...</li>+</ul>`        | Unordered List
+`<hr>`                          | Horizontal Rule
+`<img src="..." alt="...">`     | Image (with Alternative Text)
 
 
 
