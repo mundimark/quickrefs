@@ -7,6 +7,7 @@ HTML                            | Notes
 `<p>...</p>`                    | Paragraph
 `<i>...</i>`                    | Italic Text (Emphasis)
 `<b>...</b>`                    | Bold Text (Strong Emphasis)
+`<del>...</del>`                | Deleted Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<hr>`                          | Horizontal Rule
 `<img src="..." alt="...">`     | Image (with Alternative Text)
@@ -38,33 +39,39 @@ Heading 2
 ## `<p>...</p>` - Paragraph
 
 ```
-A paragraph.
+This is a paragraph.
 
-And another paragraph.
+This is another paragraph.
 ```
 
 ## `<i>...</i>` - Italic Text (Emphasis)
 
 ```
-This is *italic*.
+This text is *italic*.
 ```
 
 or
 
 ```
-This is _italic_ too.
+This text is _italic_ too.
 ```
 
 ## `<b>...</b>` - Bold Text (Strong Emphasis)
 
 ```
-This is **bold**. 
+This text is **bold**. 
 ```
 
 or
 
 ```
-This is __bold__ too.
+This text is __bold__ too.
+```
+
+## `<del>...</del>` - Deleted Text 
+
+```
+This text is ~~deleted~~.
 ```
 
 
