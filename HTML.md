@@ -63,7 +63,7 @@ This is another new line.
 
 ## Text Formatting
 
-Italic • Bold • Code (Monospaced) • Deleted (Strike-Through)
+_Italic • Bold • Code (Monospaced) • Deleted (Strike-Through)_
 
 ### `<i>...</i>` - Italic Text (Emphasis)
 
@@ -104,7 +104,7 @@ This text is ~~deleted~~.
 
 ## Lists
 
-Unordered • Ordered (Numbered)
+_Unordered • Ordered (Numbered)_
 
 ### `<ul>(<li>...</li>)+</ul>` - Unordered List
 
