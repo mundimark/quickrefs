@@ -20,9 +20,11 @@ HTML                            | Notes
 #### Heading 4
 ##### Heading 5
 ###### Heading 6
+```
 
 -or-
 
+```
 Heading 1
 =========
 
@@ -45,15 +47,19 @@ And another paragraph.
 - Item 1
 - Item 2
 - Item 3
+```
 
 -or-
 
+```
 * Item 1
 * Item 2
 * item 3
+```
 
 -or-
 
+```
 + Item 1
 + Item 2
 + Item 3
@@ -63,17 +69,23 @@ And another paragraph.
 
 ```
 ---       
+```
 
 -or-   
 
+```
 - - -
+```
 
 -or-
 
+```
 ***
+```
 
 -or-
 
+```
 * * *
 ```
 
