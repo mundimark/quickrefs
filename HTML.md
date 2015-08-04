@@ -402,6 +402,7 @@ Text              | Pretty            | Notes
 `'Hello, World'`  |  ‘Hello, World'   | uses ‘ (`&lquo;`) and ’ (`&rquo;`) 
 `--`              |  –                | uses –  (`&ndash;`)
 `---`             |  —                | uses — (`&mdash;`)
+
 ...
 
 
@@ -412,7 +413,8 @@ Text           | Pretty     | Notes
 -------------- | ---------- | -------------------
 `(c)` or `(C)` |  ©         | uses © (`&copy;`)
 `(r)` or `(R)` |  ®         | uses ® (`&reg;`)
-...            |
+
+...
 
 
 ### Emoji (Shortcodes)
