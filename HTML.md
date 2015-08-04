@@ -8,8 +8,8 @@ HTML                            | Notes
 `<br>`                          | Hard Line Break 
 `<i>...</i>`                    | Italic Text (Emphasis)
 `<b>...</b>`                    | Bold Text (Strong Emphasis)
-`<del>...</del>`                | Deleted Text
 `<code>...</code>`              | Code (Monospace Text)
+`<del>...</del>`                | Deleted (Strike-through) Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<hr>`                          | Horizontal Rule
@@ -85,16 +85,16 @@ or
 This text is __bold__ too.
 ```
 
-### `<del>...</del>` - Deleted (Strike-through) Text 
-
-```
-This text is ~~deleted~~.
-```
-
 ### `<code>...</code>` -  Code (Monospace Text)
 
 ```
 This text is `monospaced`.
+```
+
+### `<del>...</del>` - Deleted (Strike-through) Text 
+
+```
+This text is ~~deleted~~.
 ```
 
 
