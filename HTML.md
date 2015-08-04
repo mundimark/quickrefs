@@ -12,10 +12,12 @@ HTML                            | Notes
 `<del>...</del>`                | Deleted (Strike-through) Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
-`<blockquote>...<blockquote>`   | Blockquote
-`<pre><code>...</code></pre>`   | Preformatted Code Block
+`<a href="...">...</a>`         | Link
+`<img src="..." alt="...">`                   | Image (with Alternative Text)
+`<table>(<tr>(<td>...</td>)+</tr>)+</table>`  | Table
+`<pre><code>...</code></pre>`                 | Preformatted Code Block
+`<blockquote>...<blockquote>`                 | Blockquote
 `<hr>`                          | Horizontal Rule
-`<img src="..." alt="...">`     | Image (with Alternative Text)
 `<!-- ... -->`                  | Comments  
 
 
