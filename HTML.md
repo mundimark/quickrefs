@@ -171,14 +171,21 @@ or
 * * *
 ```
 
+check - include underline \_ too?
+
 ## `<!-- ... -->` - Comments  
 
 ```
-<!--
-   Add your comments here.
-  -->
+<!-- Add your comments here. -->
 ```
 
+or
+
+```
+<!-- 
+    Add your comments here. 
+  -->
+```
 
 
 add more html referecenes 
