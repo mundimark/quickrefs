@@ -34,10 +34,51 @@ Another Paragraph
 
 
 <tr>
-<td><code></code></td>
-<td></td>
-<td><pre></pre></td>
+<td><code>&lt;ul&gt;&lt;li&gt;...&lt;/li&gt;+&lt;/ul&gt;</code></td>
+<td>Unordered List</td>
+<td><pre>
+- Item 1
+- Item 2
+- Item 3
+
+-or-
+
+* Item 1
+* Item 2
+* item 3
+
+-or-
+
++ Item 1
++ Item 2
++ Item 3
+</pre></td>
 </tr>
+
+
+<tr>
+<td><code>&lt;hr&gt;</code></td>
+<td>Horizontal Rule</td>
+<td><pre>
+---       
+
+-or-   
+
+* * *
+
+-or-
+
+- - -
+</pre></td>
+</tr>
+
+
+<tr>
+<td><code>&lt;img src="..." alt="..."&gt;</code></td>
+<td>Image (with Alternative Text)</td>
+<td><pre>![text](http://example.com/logo.png)</pre></td>
+</tr>
+
 
 
 </table>
