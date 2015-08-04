@@ -112,8 +112,8 @@ _Unordered • Ordered (Numbered)_
 ```
 - Item 1
 - Item 2
-··- Item 2a        -- indent nested list with two spaces or more
-··- Item 2b
+  - Item 2a        -- indent nested list with two spaces or more
+  - Item 2b
 ```
 
  or
@@ -121,8 +121,8 @@ _Unordered • Ordered (Numbered)_
 ```
 * Item 1
 * Item 2
-··* Item 2a
-··* Item 2b
+  * Item 2a
+  * Item 2b
 ```
 
 or
@@ -130,8 +130,8 @@ or
 ```
 + Item 1
 + Item 2
-··+ Item 2a
-··+ Item 2b
+  + Item 2a
+  + Item 2b
 ```
 
 ### `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
@@ -139,8 +139,8 @@ or
 ```
 1. A list item
 2. Another list item
-···- A sublist item
-···- Another sublist item
+   - A sublist item
+   - Another sublist item
 ```
 
 
@@ -366,10 +366,10 @@ or
 Note: Use the backslash (`\`) to escape special markdown characters:
 
 ```
-\\   => \ ackslash
-\`   => ` backtick
-     => * asterisk
-     => _ underscore
+\\       => \ ackslash
+\`       => ` backtick
+         => * asterisk
+         => _ underscore
 \{ or \} => {} curly braces
 \[ or \] => [] square brackets
 \( or \) => [] parentheses
@@ -391,3 +391,33 @@ Note: HTML entities in code and code blocks get auto-escaped:
 &     =>  &amp;
 ```
 
+### Pretty Printing
+
+#### Quotes & Dashes
+
+```
+"Hello, World"    =>
+'Hello, World'    =>
+--                =>
+---               =>
+```
+
+
+#### Copyright & Trademarks
+
+```
+(c)  or (C)   => ©
+(r)  or (R)   => ®
+...
+```
+
+
+### Emojis
+
+`:smile:` :smile: •
+`:tata:`  :tata:  •
+`:book:`  :book:  •
+`:gem:`   :gem:   •
+`:+1:`    :+1:   
+
+and many more
