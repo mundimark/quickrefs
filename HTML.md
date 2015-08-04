@@ -11,6 +11,7 @@ HTML                            | Notes
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<hr>`                          | Horizontal Rule
+`<br>`                          | Hard Line Break 
 `<img src="..." alt="...">`     | Image (with Alternative Text)
 
 
@@ -132,6 +133,15 @@ or
 ```
 * * *
 ```
+
+## `<br>` -  Hard Line Break 
+
+```
+This is a line.••↵
+This is a new line.••↵
+This is another new line.
+```
+
 
 ## `<img src="..." alt="...">` - Image (with Alternative Text)
 
