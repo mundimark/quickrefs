@@ -21,6 +21,25 @@ Heading 2
 ---------
 </pre></td>
 </tr>
+
+<tr>
+<td><code>&lt;p&gt;...&lt;/p&gt;</code></td>
+<td>Paragraph</td>
+<td><pre>
+Paragraph
+
+Another Paragraph
+</pre></td>
+</tr>
+
+
+<tr>
+<td><code></code></td>
+<td></td>
+<td><pre></pre></td>
+</tr>
+
+
 </table>
 
 add html referece 
