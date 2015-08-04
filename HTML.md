@@ -5,6 +5,8 @@ HTML                            | Notes
 ------------------------------- | --------------------- 
 `<h1>...</h1>` - `<h6>...</h6>` | Heading 1-6
 `<p>...</p>`                    | Paragraph
+`<i>..</i>`                     | Italic (Emphasis)
+`<b>..</b>`                     | Bold (Strong Emphasis)
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<hr>`                          | Horizontal Rule
 `<img src="..." alt="...">`     | Image (with Alternative Text)
@@ -40,6 +42,31 @@ A paragraph.
 
 And another paragraph.
 ```
+
+## `<i>..</i>` - Italic (Emphasis)
+
+```
+This is *italic*.
+```
+
+or
+
+```
+This is _italic_ too.
+```
+
+## `<b>..</b>` - Bold (Strong Emphasis)
+
+```
+This is **bold**. 
+```
+
+or
+
+```
+This is __bold__ too.
+```
+
 
 ## `<ul>(<li>...</li>)+</ul>` - Unordered List
 
