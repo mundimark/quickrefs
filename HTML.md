@@ -9,6 +9,7 @@ HTML                            | Notes
 `<b>...</b>`                    | Bold Text (Strong Emphasis)
 `<del>...</del>`                | Deleted Text
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
+`<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<hr>`                          | Horizontal Rule
 `<img src="..." alt="...">`     | Image (with Alternative Text)
 
@@ -98,6 +99,15 @@ or
 + Item 2
 + Item 3
 ```
+
+## `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
+
+```
+1. A list item
+2. Another list item
+3. Yet another list item
+```
+
 
 ## `<hr>` - Horizontal Rule
 
