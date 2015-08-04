@@ -6,7 +6,7 @@ HTML                            | Notes
 `<h1>...</h1>` - `<h6>...</h6>`             | Heading 1-6
 `<p>...</p>`                                | Paragraph
 `<br>`                                      | Hard Line Break 
-`<i>...</i>` or `<emphasis>...</emphasis>`  | Italic Text (Emphasis)
+`<i>...</i>` or `<em>...</em>`              | Italic Text (Emphasis)
 `<b>...</b>` or `<strong>...</strong>`      | Bold Text (Strong Emphasis)
 `<code>...</code>`              | Code (Monospace Text)
 `<del>...</del>`                | Deleted (Strikethrough) Text
@@ -65,7 +65,7 @@ This is another new line.
 
 _Italic (Emphasis) • Bold (Strong Emphasis) • Code (Monospaced) • Deleted (Strikethrough)_
 
-### `<i>...</i>` or `<emphasis>...</emphasis>` - Italic Text (Emphasis)
+### `<i>...</i>` or `<em>...</em>` - Italic Text (Emphasis)
 
 ```
 This text is *italic*.
