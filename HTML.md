@@ -104,7 +104,7 @@ This text is ~~deleted~~.
 
 ## Lists
 
-_Unordered • Ordered (Numbered)_
+_Unordered • Ordered (Numbered)_ 
 
 ### `<ul>(<li>...</li>)+</ul>` - Unordered List
 
@@ -139,18 +139,178 @@ or
 ```
 
 
-## `<img src="..." alt="...">` - Image (with Alternative Text)
+
+## `<a href="...">...</a>`  - Link
+
+_Inline • Reference • Automatic_
+
+
+### Inline
 
 ```
-![Text](http://example.com/logo.png)
-![Text](logo.png)                       -- use relative path
-![](logo.png)                           -- alternative text optional e.g. leave empty
+[Link Text](http://example.com)
+[Link Text](http://example.com "Title")     -- add title attribute
+[Link Text](/quickrefs/readme.html)         -- use absolute path (starts with /)
+[Link Text](../readme.html)                 -- use relative path
+[Link Text](#chapter1)                      -- use intra-page anchors
+
 ```
+
+### Reference
+
+```
+[Link Text][id]
+[GitHub][github]
+[Git][git]
+[Mastering Markdown][1]
+[Markdown Basics][2]
+
+...
+
+[id]:     http://example.com
+[github]: http://github.com                                -- use alphanumberic ids
+[git]:    http://git-scm.com  "Offical Git Site"           -- add title attribute
+[1]:      http://guides.github.com/mastering-markdown      -- use numeric ids
+[2]:      http://help.github.com/articles/markdown-basics"
+```
+
+
+<!-- todo/check:
+     also works with []() ??? -->
+
+
+
+### Automatic
+
+```
+<http://example.com>
+<http://github.com>
+<http://guides.github.com/mastering-markdown>
+```
+
+
+
+## `<img src="..." alt="...">` - Image (with Alternative Text)
+
+_Inline • Reference_
+
+### Inline
+
+```
+![Alt Text](http://example.com/logo.png)
+![Text](/i/logo.png)                     -- use absolute path (starts with \)
+![Text](../logo.png)                     -- use relative path
+![](logo.png)                            -- alternative text optional e.g. leave empty
+![](logo.png "Title")                    -- add title attribute
+```
+
+### Reference
+
+```
+![Alt Text][logo]
+![Text][1]
+![Text][2]
+![][3]
+
+...
+
+[logo]: http://example.com/logo.png
+[1]:    /i/logo.png                     -- use absolute path (starts with \)
+[2]:    ../logo.png                     -- use relative path
+[3]:   logo.png  "Title"                -- add title attribute
+```
+
+
+
+
+## `<table>(<tr>(<td>...</td>)+</tr>)+</table>` - Table
+
+_Standard • Options_ 
+
+### Standard
+
+```
+| Header A | Header B | Header C |
+| -------- | -------- | -------- |
+| Text A1  | Text B1  | Text C1  |
+| Text A2  | Text B2  | Text C2  |
+```
+
+or
+
+```
+Header A | Header B | Header C
+-------- | -------- | --------
+Text A1  | Text B1  | Text C1
+Text A2  | Text B2  | Text C2
+```
+
+### Options
+
+
+```
+| Left     | Centered  |    Right |     
+| -------- | :-------: | -------: |     --  use :---- for left aligned
+| Text     |    Yes    |     12.3 |     --  use :---: for centered
+| Text     |    Yes    |    567.8 |     --  use ----: for right aligned
+
+```
+
+
+
+## `<pre><code>...</code></pre>`  - Preformatted Code Block
+
+
+```
+This is comma-separated values (CSV) example:
+
+••••Date,Team1,Team2,FT,HT
+••••2013-08-17,Arsenal,Aston Villa,1-3,1-1
+••••2013-08-17,Liverpool,Stoke,1-0,1-0
+••••2013-08-17,Swansea,Man United,1-4,0-2
+••••2013-08-18,Chelsea,Hull,2-0,2-0
+```
+
+or
+
+
+``````
+This is comma-separated values (CSV) example:
+
+```
+Date,Team1,Team2,FT,HT
+2013-08-17,Arsenal,Aston Villa,1-3,1-1
+2013-08-17,Liverpool,Stoke,1-0,1-0
+2013-08-17,Swansea,Man United,1-4,0-2
+2013-08-18,Chelsea,Hull,2-0,2-0
+```
+``````
+
+
+## `<blockquote>...<blockquote>`  -  Blockquote
+
+
+```
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+```
+
+or
+
+
+```
+> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+```
+
+
 
 ## `<hr>` - Horizontal Rule
 
 ```
----       
+---           -- three or more dashes
 ```
 
  or   
@@ -162,7 +322,7 @@ or
  or
 
 ```
-***
+***          -- three or more asterix
 ```
 
 or
@@ -171,7 +331,12 @@ or
 * * *
 ```
 
-check - include underline \_ too?
+or
+
+```
+___          -- three or more underscores
+```
+
 
 ## `<!-- ... -->` - Comments  
 
