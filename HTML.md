@@ -8,11 +8,13 @@ HTML                            | Notes
 `<i>...</i>`                    | Italic Text (Emphasis)
 `<b>...</b>`                    | Bold Text (Strong Emphasis)
 `<del>...</del>`                | Deleted Text
+`<code>...</code>`              | Code (Monospace Text)
 `<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<hr>`                          | Horizontal Rule
 `<br>`                          | Hard Line Break 
 `<img src="..." alt="...">`     | Image (with Alternative Text)
+`<!-- ... -->`                  | Comments  
 
 
 
@@ -41,7 +43,8 @@ Heading 2
 ## `<p>...</p>` - Paragraph
 
 ```
-This is a paragraph.
+This is a paragraph. Paragraphs are separated
+by a blank line.
 
 This is another paragraph.
 ```
@@ -74,6 +77,12 @@ This text is __bold__ too.
 
 ```
 This text is ~~deleted~~.
+```
+
+## `<code>...</code>` -  Code (Monospace Text)
+
+```
+This text is `monospaced`.
 ```
 
 
@@ -137,7 +146,7 @@ or
 ## `<br>` -  Hard Line Break 
 
 ```
-This is a line.••↵
+Leave two spaces at the end of a line to do a line break.••↵
 This is a new line.••↵
 This is another new line.
 ```
@@ -150,6 +159,15 @@ This is another new line.
 ![Text](logo.png)                       -- use relative path
 ![](logo.png)                           -- alternative text optional e.g. leave empty
 ```
+
+## `<!-- ... -->` - Comments  
+
+```
+<!--
+   Add your comments here.
+  -->
+```
+
 
 
 add more html referecenes 
