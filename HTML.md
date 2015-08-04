@@ -5,7 +5,7 @@ HTML                            | Notes
 ------------------------------- | --------------------- 
 `<h1>...</h1>` - `<h6>...</h6>` | Heading 1-6
 `<p>...</p>`                    | Paragraph
-`<ul><li>...</li>+</ul>`        | Unordered List
+`<ul>(<li>...</li>)+</ul>`      | Unordered List
 `<hr>`                          | Horizontal Rule
 `<img src="..." alt="...">`     | Image (with Alternative Text)
 
@@ -39,7 +39,7 @@ Paragraph
 Another Paragraph
 ```
 
-## `<ul><li>...</li>+</ul>` - Unordered List
+## `<ul>(<li>...</li>)+</ul>` - Unordered List
 
 ```
 - Item 1
@@ -77,7 +77,9 @@ Another Paragraph
 
 ```
 ![text](http://example.com/logo.png)
+![text](logo.png)                       -- use relative path
+![](logo.png)                           -- alternative text optional e.g. leave empty
 ```
 
 
-add html referece 
+add more html referecenes 
