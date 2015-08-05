@@ -3,7 +3,7 @@
 
 HTML                            | Notes
 ------------------------------- | ---------------------
-`<h1>...</h1>` - `<h6>...</h6>`             | Heading 1-6
+`<h1>...</h1>` - `<h6>...</h6>`             | Header 1-6
 `<p>...</p>`                                | Paragraph
 `<br>`                                      | Hard Line Break 
 `<i>...</i>` or `<em>...</em>`              | Italic Text (Emphasis)
@@ -22,41 +22,43 @@ HTML                            | Notes
 
 
 
-## `<h1>...</h1>` - `<h6>...</h6>` - Heading 1-6
+## `<h1>...</h1>` - `<h6>...</h6>` - Header 1-6
 
 ```
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Header 1
+## Header 2
+### Header 3
+#### Header 4 ####
+##### Header 5 #####
+###### Header 6 ######
 ```
 
+Resulting in:
 - - -
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+# Header 1
+## Header 2
+### Header 3
+#### Header 4 ####
+##### Header 5 #####
+###### Header 6 ######
 - - -
 
   or
 
 ```
-Heading 1
+Header 1
 =========
 
-Heading 2
+Header 2
 ---------
 ```
 
+Resulting in:
 - - -
-Heading 1
+Header 1
 =========
 
-Heading 2
+Header 2
 ---------
 - - -
 
@@ -70,6 +72,7 @@ by a blank line.
 This is another paragraph.
 ```
 
+Resulting in:
 - - -
 This is a paragraph. Paragraphs are separated
 by a blank line.
@@ -86,6 +89,7 @@ This is a new line.··↵
 This is another new line.
 ```
 
+Resulting in:
 - - -
 Leave two spaces at the end of a line to do a line break.  
 This is a new line.  
@@ -103,11 +107,24 @@ _Italic (Emphasis) • Bold (Strong Emphasis) • Code (Monospaced) • Deleted 
 This text is *italic*.
 ```
 
+Resulting in:
+- - -
+This text is *italic*.
+- - -
+
 or
 
 ```
 This text is _italic_ too.
 ```
+
+Resulting in:
+- - -
+This text is _italic_ too.
+- - -
+
+
+
 
 ### `<b>...</b>` or `<strong>...</strong>` - Bold Text (Strong Emphasis)
 
