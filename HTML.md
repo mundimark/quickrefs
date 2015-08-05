@@ -33,6 +33,15 @@ HTML                            | Notes
 ###### Heading 6
 ```
 
+- - -
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+- - -
+
   or
 
 ```
@@ -42,6 +51,14 @@ Heading 1
 Heading 2
 ---------
 ```
+
+- - -
+Heading 1
+=========
+
+Heading 2
+---------
+- - -
 
 
 ## `<p>...</p>` - Paragraph
@@ -53,6 +70,14 @@ by a blank line.
 This is another paragraph.
 ```
 
+- - -
+This is a paragraph. Paragraphs are separated
+by a blank line.
+
+This is another paragraph.
+- - -
+
+
 ## `<br>` -  Hard Line Break 
 
 ```
@@ -60,6 +85,13 @@ Leave two spaces at the end of a line to do a line break.··↵
 This is a new line.··↵
 This is another new line.
 ```
+
+- - -
+Leave two spaces at the end of a line to do a line break.  
+This is a new line.  
+This is another new line.
+- - -
+
 
 ## Text Formatting
 
