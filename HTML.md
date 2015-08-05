@@ -73,15 +73,18 @@ This is another paragraph.
 ```
 
 Resulting in:
-- - -
+
+................................
+
 This is a paragraph. Paragraphs are separated
 by a blank line.
 
 This is another paragraph.
-- - -
+
+.................................
 
 
-## `<br>` -  Hard Line Break 
+## Hard Line Break - `<br>`
 
 ```
 Leave two spaces at the end of a line to do a line break.··↵
@@ -90,27 +93,33 @@ This is another new line.
 ```
 
 Resulting in:
-- - -
+
+∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨∨
+
 Leave two spaces at the end of a line to do a line break.  
 This is a new line.  
 This is another new line.
-- - -
+
+∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧∧
 
 
 ## Text Formatting
 
 _Italic (Emphasis) • Bold (Strong Emphasis) • Code (Monospaced) • Deleted (Strikethrough)_
 
-### `<i>...</i>` or `<em>...</em>` - Italic Text (Emphasis)
+### Italic Text (Emphasis) - `<i>...</i>` or `<em>...</em>`
 
 ```
 This text is *italic*.
 ```
 
 Resulting in:
-- - -
+
+</> ›››››››››››››››››››››››››
+
 This text is *italic*.
-- - -
+
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ </>
 
 or
 
@@ -119,11 +128,12 @@ This text is _italic_ too.
 ```
 
 Resulting in:
-- - -
+
+</>
+
 This text is _italic_ too.
-- - -
 
-
+</>
 
 
 ### `<b>...</b>` or `<strong>...</strong>` - Bold Text (Strong Emphasis)
