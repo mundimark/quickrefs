@@ -10,10 +10,10 @@ HTML                            | Notes
 `<b>...</b>` or `<strong>...</strong>`      | Bold Text (Strong Emphasis)
 `<code>...</code>`              | Code (Monospace Text)
 `<del>...</del>`                | Deleted (Strikethrough) Text
-`<ul>(<li>...</li>)+</ul>`      | Unordered List
+`<ul>(<li>...</li>)+</ul>`      | Unordered (Bullet) List
 `<ol>(<li>...</li>)+</ol>`      | Ordered (Numbered) List
 `<a href="...">...</a>`         | Link
-`<img src="..." alt="...">`                   | Image (with Alternative Text)
+`<img src="..." alt="...">`                   | Image with Alt(ernative) Text
 `<table>(<tr>(<td>...</td>)+</tr>)+</table>`  | Table
 `<pre><code>...</code></pre>`                 | Preformatted Code Block
 `<blockquote>...<blockquote>`                 | Blockquote
@@ -34,9 +34,7 @@ HTML                            | Notes
 ###### Header 6 ######
 ```
 
-Resulting in:
-
-</> ................................................................................................
+Resulting in »»  ................................................................................................
 
 # Header 1
 ## Header 2
@@ -57,9 +55,7 @@ Header 2
 ---------
 ```
 
-Resulting in:
-
-</> ................................................................................................
+Resulting in </>  ................................................................................................
 
 Header 1
 =========
@@ -79,9 +75,7 @@ by a blank line.
 This is another paragraph.
 ```
 
-Resulting in:
-
-................................................................................................
+Resulting in »»  ................................................................................................
 
 This is a paragraph. Paragraphs are separated
 by a blank line.
@@ -99,9 +93,7 @@ This is a new line.··↵
 This is another new line.
 ```
 
-Resulting in:
-
-................................................................................................
+Resulting in: ................................................................................................
 
 Leave two spaces at the end of a line to do a line break.  
 This is a new line.  
@@ -171,9 +163,9 @@ This text is ~~deleted~~.
 
 ## Lists
 
-_Unordered • Ordered (Numbered)_ 
+_Unordered (Bullet) • Ordered (Numbered)_ 
 
-### `<ul>(<li>...</li>)+</ul>` - Unordered List
+### Unordered (Bullet) List - `<ul>(<li>...</li>)+</ul>`
 
 ```
 - Item 1
@@ -200,7 +192,7 @@ or
   + Item 2b
 ```
 
-### `<ol>(<li>...</li>)+</ol>` - Ordered (Numbered) List
+### Ordered (Numbered) List - `<ol>(<li>...</li>)+</ol>`
 
 ```
 1. A list item
@@ -211,7 +203,9 @@ or
 
 
 
-## `<a href="...">...</a>`  - Link
+
+## Link - `<a href="...">...</a>`
+
 
 _Inline • Reference • Automatic_
 
@@ -261,7 +255,7 @@ _Inline • Reference • Automatic_
 
 
 
-## `<img src="..." alt="...">` - Image (with Alternative Text)
+## Image with Alt(ernative) Text - `<img src="..." alt="...">`
 
 _Inline • Reference_
 
@@ -269,10 +263,10 @@ _Inline • Reference_
 
 ```
 ![Alt Text](http://example.com/logo.png)
-![Text](/i/logo.png)                     -- use absolute path (starts with \)
-![Text](../logo.png)                     -- use relative path
-![](logo.png)                            -- alternative text optional e.g. leave empty
-![](logo.png "Title")                    -- add title attribute
+![Text](/i/logo.png)                     _-- use absolute path (starts with \)_
+![Text](../logo.png)                     _-- use relative path_
+![](logo.png)                            _-- alternative text optional e.g. leave empty_
+![](logo.png "Title")                    _-- add title attribute_
 ```
 
 ### Reference
