@@ -445,11 +445,11 @@ Resulting in:
 
 This is comma-separated values (CSV) example:
 
-   Date,Team1,Team2,FT,HT
-   2013-08-17,Arsenal,Aston Villa,1-3,1-1
-   2013-08-17,Liverpool,Stoke,1-0,1-0
-   2013-08-17,Swansea,Man United,1-4,0-2
-   2013-08-18,Chelsea,Hull,2-0,2-0
+    Date,Team1,Team2,FT,HT
+    2013-08-17,Arsenal,Aston Villa,1-3,1-1
+    2013-08-17,Liverpool,Stoke,1-0,1-0
+    2013-08-17,Swansea,Man United,1-4,0-2
+    2013-08-18,Chelsea,Hull,2-0,2-0
 
 </>
 
