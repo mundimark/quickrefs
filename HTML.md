@@ -18,7 +18,7 @@ HTML                            | Notes
 `<pre><code>...</code></pre>`                 | Preformatted Code Block
 `<blockquote>...<blockquote>`                 | Blockquote
 `<hr>`                          | Horizontal Rule
-`<!-- ... -->`                  | Comments  
+`<!-- ... -->`                  | Comments
 
 
 
@@ -114,14 +114,6 @@ _Italic (Emphasis) • Bold (Strong Emphasis) • Code (Monospaced) • Deleted 
 This text is *italic*.
 ```
 
-Resulting in:
-
-</> ................................................................................................
-
-This text is *italic*.
-
-................................................................................................ </>
-
 or
 
 ```
@@ -130,14 +122,14 @@ This text is _italic_ too.
 
 Resulting in:
 
-</>
-
+This text is *italic*.  
 This text is _italic_ too.
 
 </>
 
 
-### `<b>...</b>` or `<strong>...</strong>` - Bold Text (Strong Emphasis)
+
+### Bold Text (Strong Emphasis) - `<b>...</b>` or `<strong>...</strong>`
 
 ```
 This text is **bold**. 
@@ -149,17 +141,38 @@ or
 This text is __bold__ too.
 ```
 
-### `<code>...</code>` -  Code (Monospace Text)
+Resulting in:
+
+This text is **bold**.  
+This text is __bold__ too.
+
+</>
+
+
+### Code (Monospace Text) - `<code>...</code>`
 
 ```
 This text is `monospaced`.
 ```
 
-### `<del>...</del>` - Deleted (Strikethrough) Text
+Resulting in:
+
+This text is `monospaced`.
+
+</>
+
+
+### Deleted (Strikethrough) Text - `<del>...</del>`
 
 ```
 This text is ~~deleted~~.
 ```
+
+Resulting in:
+
+This text is ~~deleted~~.
+
+</>
 
 
 
@@ -194,6 +207,16 @@ or
   + Item 2b
 ```
 
+Resulting in:
+
+- Item 1
+- Item 2
+  - Item 2a
+  - Item 2b
+
+</>
+
+
 ### Ordered (Numbered) List - `<ol>(<li>...</li>)+</ol>`
 
 ```
@@ -203,7 +226,14 @@ or
    - Another sublist item
 ```
 
+Resulting in:
 
+1. A list item
+2. Another list item
+   - A sublist item
+   - Another sublist item
+
+</>
 
 
 ## Link - `<a href="...">...</a>`
@@ -223,6 +253,20 @@ _Inline • Reference • Automatic_
 
 ```
 
+<!-- note: use example.com for all "live" links
+  -->
+
+Resulting:
+
+[Link Text](http://example.com)
+[Link Text](http://example.com "Title")
+[Link Text](http://example.com/quickrefs/readme.html)
+[Link Text](http://example.com/test/../readme.html)
+[Link Text](http://example.com/#chapter1)
+
+</>
+
+
 ### Reference
 
 ```
@@ -238,12 +282,28 @@ _Inline • Reference • Automatic_
 [github]: http://github.com                                -- use alphanumberic ids
 [git]:    http://git-scm.com  "Offical Git Site"           -- add title attribute
 [1]:      http://guides.github.com/mastering-markdown      -- use numeric ids
-[2]:      http://help.github.com/articles/markdown-basics"
+[2]:      http://help.github.com/articles/markdown-basics
 ```
-
 
 <!-- todo/check:
      also works with []() ??? -->
+
+
+Resulting in:
+
+[Link Text][id]
+[GitHub][github]
+[Git][git]
+[Mastering Markdown][1]
+[Markdown Basics][2]
+
+[id]:     http://example.com
+[github]: http://github.com
+[git]:    http://git-scm.com  "Offical Git Site"
+[1]:      http://guides.github.com/features/mastering-markdown
+[2]:      http://help.github.com/articles/markdown-basics
+
+</>
 
 
 
@@ -252,8 +312,16 @@ _Inline • Reference • Automatic_
 ```
 <http://example.com>
 <http://github.com>
-<http://guides.github.com/mastering-markdown>
+<http://help.github.com/articles/markdown-basics>
 ```
+
+Resulting in:
+
+<http://example.com>
+<http://github.com>
+<http://help.github.com/articles/markdown-basics>
+
+</>
 
 
 
@@ -265,11 +333,16 @@ _Inline • Reference_
 
 ```
 ![Alt Text](http://example.com/logo.png)
-![Text](/i/logo.png)                     _-- use absolute path (starts with \)_
-![Text](../logo.png)                     _-- use relative path_
-![](logo.png)                            _-- alternative text optional e.g. leave empty_
-![](logo.png "Title")                    _-- add title attribute_
+![Text](/i/logo.png)                      -- use absolute path (starts with \)
+![Text](../logo.png)                      -- use relative path
+![](logo.png)                             -- alternative text optional e.g. leave empty
+![](logo.png "Title")                     -- add title attribute
 ```
+
+
+<!-- to be done
+     add logo example to repo??
+  -->
 
 ### Reference
 
@@ -312,6 +385,15 @@ Text A1  | Text B1  | Text C1
 Text A2  | Text B2  | Text C2
 ```
 
+Resulting in:
+
+| Header A | Header B | Header C |
+| -------- | -------- | -------- |
+| Text A1  | Text B1  | Text C1  |
+| Text A2  | Text B2  | Text C2  |
+
+</>
+
 ### Options
 
 
@@ -323,6 +405,14 @@ Text A2  | Text B2  | Text C2
 
 ```
 
+Resulting in:
+
+| Left     | Centered  |    Right |
+| -------- | :-------: | -------: |
+| Text     |    Yes    |     12.3 |
+| Text     |    Yes    |    567.8 |
+
+</>
 
 
 ## `<pre><code>...</code></pre>`  - Preformatted Code Block
@@ -351,6 +441,17 @@ or
     2013-08-18,Chelsea,Hull,2-0,2-0
     ```
 
+Resulting in:
+
+This is comma-separated values (CSV) example:
+
+   Date,Team1,Team2,FT,HT
+   2013-08-17,Arsenal,Aston Villa,1-3,1-1
+   2013-08-17,Liverpool,Stoke,1-0,1-0
+   2013-08-17,Swansea,Man United,1-4,0-2
+   2013-08-18,Chelsea,Hull,2-0,2-0
+
+</>
 
 
 ## `<blockquote>...<blockquote>`  -  Blockquote
@@ -372,6 +473,15 @@ As Grace Hopper said:
 > I've always been more interested
 in the future than in the past.     -- shortcut version; email-style quote (>) only required in first line
 ```
+
+Resulting in:
+
+As Grace Hopper said:
+
+> I've always been more interested
+> in the future than in the past.
+
+</>
 
 
 ## `<hr>` - Horizontal Rule
@@ -404,6 +514,12 @@ or
 ___          -- three or more underscores
 ```
 
+Resulting in:
+
+---
+
+</>
+
 
 ## `<!-- ... -->` - Comments  
 
@@ -418,6 +534,11 @@ or
     Add your comments here. 
   -->
 ```
+
+Resulting in:
+
+</>
+
 
 ## Appendix
 
@@ -456,14 +577,15 @@ Note: HTML entities in code and code blocks get auto-escaped:
 
 ### Pretty Printing
 
-#### Quotes & Dashes
+#### Quotes, Dashes, and Ellipses
 
 Text              | Pretty            | Notes
 ----------------- | ----------------- | -------------------------------------
 `"Hello, World"`  |  “Hello, World”   | uses “ (`&ldquo;`) and ” (`&rdquo;`)
-`'Hello, World'`  |  ‘Hello, World'   | uses ‘ (`&lquo;`) and ’ (`&rquo;`) 
+`'Hello, World'`  |  ‘Hello, World’   | uses ‘ (`&lquo;`) and ’ (`&rquo;`) 
 `--`              |  –                | uses –  (`&ndash;`)
 `---`             |  —                | uses — (`&mdash;`)
+`...`             |  …                | uses … (`&hellip;`)
 
 ...
 
