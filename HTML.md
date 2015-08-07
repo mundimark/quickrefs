@@ -499,7 +499,7 @@ As Grace Hopper said:
  or
 
 ```
-***          -- three or more asterix
+***          -- three or more asterisks
 ```
 
 or
