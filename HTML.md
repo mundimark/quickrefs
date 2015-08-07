@@ -1,4 +1,4 @@
-# HTML <=>  Markdown Quick Reference
+# HTML ↔︎ Markdown Quick Reference
 
 
 HTML                            | Notes
